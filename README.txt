@@ -10,7 +10,7 @@ diffsion_model.py 是我是使用的diffusion process source: https://github.com
 .pth &　.pt檔是模型 & DIP輸入noise的本體
 
 requirements.txt 是我的環境中有安裝的套件
-備註我有適用CUDA，請確保執行環境有安裝相關套件
+備註我有使用CUDA，請確保執行環境有安裝相關套件
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
