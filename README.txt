@@ -17,7 +17,7 @@ requirements.txt 是我的環境中有安裝的套件
 DIP_sample.pth & DIP_sample.ipynb & input_noise.pt 是我生出來的DIP & 對應的輸入 & 生成腳本，沒事建議別動，我設計的DIP似乎具有缺陷不易收斂，跑的話可能會對實驗結果產生影響
 
 
-我的solution 是 Example 1: Accelerating DDPM with DIP-based Initial Priors
+我的solution 是參考 Example 1: Accelerating DDPM with DIP-based Initial Priors ，假設是有了DDPM有了DIP就不需要從time step 999 逆推到0，而是可以從500開始。
 Main_DIP_concat_DDPM.ipybn是本次作業的 solution 模型的訓練腳本，輸出模型為Model_DIP_DDPM.pth
 inference_DIP_concat_DDPM.ipynb 是本次作業的 solution 模型的驗證腳本，讀取模型為Model_DIP_DDPM.pth
 
